@@ -9,11 +9,11 @@ import java.util.Map;
 public class Execution {
 	public static void main(String[] args) throws Exception{
 		
-		String dir = "C:\\Users\\RoYui\\Desktop\\arg_data\\ñºå√âÆëÂââèKÉfÅ[É^";
-		String dictFile = dir+"\\dict.txt";
-		String symOutput = dir + "\\symfile.txt";
-		
-		File[] files = new File(dir, "texts").listFiles();
+		String dir = "C:\\Users\\Jumatsu\\chasen\\a";
+		String dictFile = "C:\\Users\\Jumatsu\\chasen\\dict.txt";
+		String symOutput = "C:\\Users\\Jumatsu\\chasen\\symfile.txt";
+		countWordsFromDir(dir, dictFile);
+		File[] files = new File[]{new File("C:\\Users\\Jumatsu\\chasen\\a\\test.txt")};
 		
 		convertFilesToSymbol(dictFile,  files, symOutput);
 		

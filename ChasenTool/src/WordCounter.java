@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class WordCounter {
 	//static final File TEMP_FILE = new File(System.getProperty("java.io.tmpdir"), "chasen.txt");
-	static final File TEMP_FILE = new File("C:\\Users\\RoYui\\Desktop\\chasen.txt");
+	static final File TEMP_FILE = new File("C:\\TEMP\\chasen1.txt");
 	
 	static{
 		if (!TEMP_FILE.exists())
